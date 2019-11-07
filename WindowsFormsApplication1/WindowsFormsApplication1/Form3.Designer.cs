@@ -33,6 +33,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.view2BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.g464_Savosteenko_BaranovDataSet = new WindowsFormsApplication1.g464_Savosteenko_BaranovDataSet();
@@ -71,7 +72,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(192, 356);
+            this.label1.Location = new System.Drawing.Point(192, 354);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(242, 13);
             this.label1.TabIndex = 0;
@@ -92,13 +93,14 @@
             this.label2.Location = new System.Drawing.Point(104, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(250, 24);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 0;
             this.label2.Text = "MARATHON SKILLS 2017";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.maskedTextBox2);
             this.groupBox1.Controls.Add(this.maskedTextBox1);
@@ -132,6 +134,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(177, 235);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(13, 16);
+            this.label16.TabIndex = 28;
+            this.label16.Text = "/";
+            // 
             // comboBox1
             // 
             this.comboBox1.DataSource = this.view2BindingSource;
@@ -140,7 +151,7 @@
             this.comboBox1.Location = new System.Drawing.Point(130, 153);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(224, 24);
-            this.comboBox1.TabIndex = 27;
+            this.comboBox1.TabIndex = 2;
             this.comboBox1.ValueMember = "RunnerId";
             // 
             // view2BindingSource
@@ -159,7 +170,7 @@
             this.maskedTextBox2.Mask = "000";
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(32, 22);
-            this.maskedTextBox2.TabIndex = 26;
+            this.maskedTextBox2.TabIndex = 7;
             // 
             // maskedTextBox1
             // 
@@ -167,14 +178,14 @@
             this.maskedTextBox1.Mask = "0000-0000-0000-0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(151, 22);
-            this.maskedTextBox1.TabIndex = 25;
+            this.maskedTextBox1.TabIndex = 4;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(180, 233);
+            this.textBox8.Location = new System.Drawing.Point(191, 233);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(60, 22);
-            this.textBox8.TabIndex = 24;
+            this.textBox8.TabIndex = 6;
             // 
             // label15
             // 
@@ -236,28 +247,28 @@
             this.textBox6.Location = new System.Drawing.Point(130, 233);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(44, 22);
-            this.textBox6.TabIndex = 16;
+            this.textBox6.TabIndex = 5;
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(130, 181);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(111, 22);
-            this.textBox4.TabIndex = 14;
+            this.textBox4.TabIndex = 3;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(130, 130);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(113, 22);
-            this.textBox2.TabIndex = 12;
+            this.textBox2.TabIndex = 1;
             // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(487, 258);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(84, 23);
-            this.button5.TabIndex = 11;
+            this.button5.TabIndex = 12;
             this.button5.Text = "Отмена";
             this.button5.UseVisualStyleBackColor = true;
             // 
@@ -266,13 +277,14 @@
             this.button4.Location = new System.Drawing.Point(381, 258);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 23);
-            this.button4.TabIndex = 10;
+            this.button4.TabIndex = 11;
             this.button4.Text = "Заплатить";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(439, 229);
+            this.textBox1.Location = new System.Drawing.Point(439, 227);
             this.textBox1.MaxLength = 8;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(87, 22);
@@ -286,7 +298,7 @@
             this.button3.Location = new System.Drawing.Point(530, 228);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(20, 20);
-            this.button3.TabIndex = 8;
+            this.button3.TabIndex = 10;
             this.button3.Text = "+";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -297,7 +309,7 @@
             this.button2.Location = new System.Drawing.Point(414, 228);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(20, 20);
-            this.button2.TabIndex = 7;
+            this.button2.TabIndex = 8;
             this.button2.Text = "-";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -310,7 +322,7 @@
             this.label9.Location = new System.Drawing.Point(441, 181);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(93, 37);
-            this.label9.TabIndex = 6;
+            this.label9.TabIndex = 0;
             this.label9.Text = "300$";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
@@ -322,7 +334,7 @@
             this.label8.Location = new System.Drawing.Point(396, 153);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(176, 16);
-            this.label8.TabIndex = 5;
+            this.label8.TabIndex = 0;
             this.label8.Text = "Сумма пожертвования";
             // 
             // label7
@@ -331,7 +343,7 @@
             this.label7.Location = new System.Drawing.Point(437, 125);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(96, 16);
-            this.label7.TabIndex = 4;
+            this.label7.TabIndex = 0;
             this.label7.Text = "Фонд Кошек";
             // 
             // label6
@@ -342,7 +354,7 @@
             this.label6.Location = new System.Drawing.Point(399, 100);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(172, 16);
-            this.label6.TabIndex = 3;
+            this.label6.TabIndex = 0;
             this.label6.Text = "Благотворительность";
             // 
             // label5
@@ -353,7 +365,7 @@
             this.label5.Location = new System.Drawing.Point(51, 100);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(192, 16);
-            this.label5.TabIndex = 2;
+            this.label5.TabIndex = 0;
             this.label5.Text = "Информация о Спонсоре";
             // 
             // label4
@@ -363,7 +375,7 @@
             this.label4.Location = new System.Drawing.Point(25, 43);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(536, 45);
-            this.label4.TabIndex = 1;
+            this.label4.TabIndex = 0;
             this.label4.Text = "Пожалуйста выберите бегуна, которго вы хотели бы спонсировать и сумму, \r\nкоторую " +
     "вы хотели бы спонсировать. Спасибо за вашу поддержку бегунов и их\r\nблаготворител" +
     "ьных учреждений";
@@ -385,7 +397,7 @@
             this.button1.Location = new System.Drawing.Point(13, 10);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(64, 30);
-            this.button1.TabIndex = 3;
+            this.button1.TabIndex = 13;
             this.button1.Text = "Назад";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -451,5 +463,6 @@
         private g464_Savosteenko_BaranovDataSet g464_Savosteenko_BaranovDataSet;
         private System.Windows.Forms.BindingSource view2BindingSource;
         private g464_Savosteenko_BaranovDataSetTableAdapters.View_2TableAdapter view_2TableAdapter;
+        private System.Windows.Forms.Label label16;
     }
 }

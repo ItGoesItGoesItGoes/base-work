@@ -29,6 +29,7 @@ namespace WindowsFormsApplication1
   //      Form3 Sponsor = new Form3();
   //      Sponsor.Show();
   //  }
+
     public class FormWorker
     {
         public static Form3 Sponsor

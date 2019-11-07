@@ -17,6 +17,8 @@ namespace WindowsFormsApplication1
         int days = 0, hours = 0, minutes = 0;
         string dataString = "";
         int BoxSodej = 300;
+        private int irt;
+        private int[] masforzap=;
         //Form2 ManeForm;
         public Form3()
         {
@@ -89,6 +91,15 @@ namespace WindowsFormsApplication1
         private void label9_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            for(irt=0;irt<8;irt++)
+            {
+                
+
+            }
         }
     }
 }

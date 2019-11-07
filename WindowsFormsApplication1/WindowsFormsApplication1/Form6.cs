@@ -15,6 +15,11 @@ namespace WindowsFormsApplication1
         int timerOut = TimeForm2.TimeData;
         int days = 0, hours = 0, minutes = 0;
         string dataString = "";
+
+
+
+
+
         public Form6()
         {
             InitializeComponent();
@@ -38,6 +43,11 @@ namespace WindowsFormsApplication1
             minutes = (timerOut - (days * 86400) - (hours * 3600)) / 60;
             dataString = days + " дней " + hours + " часов и " + minutes + " минут до старта марафона";
             label1.Text = dataString;
+        }
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
