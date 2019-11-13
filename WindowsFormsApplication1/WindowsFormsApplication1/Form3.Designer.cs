@@ -34,24 +34,24 @@
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.TextPole2 = new System.Windows.Forms.ComboBox();
             this.view2BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.g464_Savosteenko_BaranovDataSet = new WindowsFormsApplication1.g464_Savosteenko_BaranovDataSet();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.TextPole7 = new System.Windows.Forms.MaskedTextBox();
+            this.TextPole4 = new System.Windows.Forms.MaskedTextBox();
+            this.TextPole6 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TextPole5 = new System.Windows.Forms.TextBox();
+            this.TextPole3 = new System.Windows.Forms.TextBox();
+            this.TextPole1 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TextPole8 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
@@ -101,22 +101,22 @@
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
             this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.maskedTextBox2);
-            this.groupBox1.Controls.Add(this.maskedTextBox1);
-            this.groupBox1.Controls.Add(this.textBox8);
+            this.groupBox1.Controls.Add(this.TextPole2);
+            this.groupBox1.Controls.Add(this.TextPole7);
+            this.groupBox1.Controls.Add(this.TextPole4);
+            this.groupBox1.Controls.Add(this.TextPole6);
             this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.TextPole5);
+            this.groupBox1.Controls.Add(this.TextPole3);
+            this.groupBox1.Controls.Add(this.TextPole1);
             this.groupBox1.Controls.Add(this.button5);
             this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.TextPole8);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.label9);
@@ -137,22 +137,22 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(177, 235);
+            this.label16.Location = new System.Drawing.Point(187, 235);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(13, 16);
             this.label16.TabIndex = 28;
             this.label16.Text = "/";
             // 
-            // comboBox1
+            // TextPole2
             // 
-            this.comboBox1.DataSource = this.view2BindingSource;
-            this.comboBox1.DisplayMember = "DisplayName";
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(130, 153);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(224, 24);
-            this.comboBox1.TabIndex = 2;
-            this.comboBox1.ValueMember = "RunnerId";
+            this.TextPole2.DataSource = this.view2BindingSource;
+            this.TextPole2.DisplayMember = "DisplayName";
+            this.TextPole2.FormattingEnabled = true;
+            this.TextPole2.Location = new System.Drawing.Point(140, 153);
+            this.TextPole2.Name = "TextPole2";
+            this.TextPole2.Size = new System.Drawing.Size(224, 24);
+            this.TextPole2.TabIndex = 2;
+            this.TextPole2.ValueMember = "RunnerId";
             // 
             // view2BindingSource
             // 
@@ -164,33 +164,33 @@
             this.g464_Savosteenko_BaranovDataSet.DataSetName = "g464_Savosteenko_BaranovDataSet";
             this.g464_Savosteenko_BaranovDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // maskedTextBox2
+            // TextPole7
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(130, 261);
-            this.maskedTextBox2.Mask = "000";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(32, 22);
-            this.maskedTextBox2.TabIndex = 7;
+            this.TextPole7.Location = new System.Drawing.Point(140, 261);
+            this.TextPole7.Mask = "000";
+            this.TextPole7.Name = "TextPole7";
+            this.TextPole7.Size = new System.Drawing.Size(32, 22);
+            this.TextPole7.TabIndex = 7;
             // 
-            // maskedTextBox1
+            // TextPole4
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(130, 207);
-            this.maskedTextBox1.Mask = "0000-0000-0000-0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(151, 22);
-            this.maskedTextBox1.TabIndex = 4;
+            this.TextPole4.Location = new System.Drawing.Point(140, 207);
+            this.TextPole4.Mask = "0000-0000-0000-0000";
+            this.TextPole4.Name = "TextPole4";
+            this.TextPole4.Size = new System.Drawing.Size(151, 22);
+            this.TextPole4.TabIndex = 4;
             // 
-            // textBox8
+            // TextPole6
             // 
-            this.textBox8.Location = new System.Drawing.Point(191, 233);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(60, 22);
-            this.textBox8.TabIndex = 6;
+            this.TextPole6.Location = new System.Drawing.Point(201, 233);
+            this.TextPole6.Name = "TextPole6";
+            this.TextPole6.Size = new System.Drawing.Size(60, 22);
+            this.TextPole6.TabIndex = 6;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(83, 260);
+            this.label15.Location = new System.Drawing.Point(95, 260);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(42, 16);
             this.label15.TabIndex = 23;
@@ -199,7 +199,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(6, 233);
+            this.label14.Location = new System.Drawing.Point(18, 233);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(121, 16);
             this.label14.TabIndex = 22;
@@ -209,7 +209,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(10, 207);
+            this.label13.Location = new System.Drawing.Point(22, 207);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(116, 16);
             this.label13.TabIndex = 21;
@@ -218,16 +218,16 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(69, 184);
+            this.label12.Location = new System.Drawing.Point(5, 184);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(56, 16);
+            this.label12.Size = new System.Drawing.Size(133, 16);
             this.label12.TabIndex = 20;
-            this.label12.Text = "Карта:";
+            this.label12.Text = "Владелец карты:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(69, 159);
+            this.label11.Location = new System.Drawing.Point(81, 159);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(56, 16);
             this.label11.TabIndex = 19;
@@ -236,32 +236,32 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(46, 130);
+            this.label10.Location = new System.Drawing.Point(58, 130);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(81, 16);
             this.label10.TabIndex = 18;
             this.label10.Text = "Ваше имя:";
             // 
-            // textBox6
+            // TextPole5
             // 
-            this.textBox6.Location = new System.Drawing.Point(130, 233);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(44, 22);
-            this.textBox6.TabIndex = 5;
+            this.TextPole5.Location = new System.Drawing.Point(140, 233);
+            this.TextPole5.Name = "TextPole5";
+            this.TextPole5.Size = new System.Drawing.Size(44, 22);
+            this.TextPole5.TabIndex = 5;
             // 
-            // textBox4
+            // TextPole3
             // 
-            this.textBox4.Location = new System.Drawing.Point(130, 181);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(111, 22);
-            this.textBox4.TabIndex = 3;
+            this.TextPole3.Location = new System.Drawing.Point(140, 181);
+            this.TextPole3.Name = "TextPole3";
+            this.TextPole3.Size = new System.Drawing.Size(111, 22);
+            this.TextPole3.TabIndex = 3;
             // 
-            // textBox2
+            // TextPole1
             // 
-            this.textBox2.Location = new System.Drawing.Point(130, 130);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(113, 22);
-            this.textBox2.TabIndex = 1;
+            this.TextPole1.Location = new System.Drawing.Point(140, 130);
+            this.TextPole1.Name = "TextPole1";
+            this.TextPole1.Size = new System.Drawing.Size(113, 22);
+            this.TextPole1.TabIndex = 1;
             // 
             // button5
             // 
@@ -282,15 +282,15 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // textBox1
+            // TextPole8
             // 
-            this.textBox1.Location = new System.Drawing.Point(439, 227);
-            this.textBox1.MaxLength = 8;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(87, 22);
-            this.textBox1.TabIndex = 9;
-            this.textBox1.Text = "300";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.TextPole8.Location = new System.Drawing.Point(439, 227);
+            this.TextPole8.MaxLength = 8;
+            this.TextPole8.Name = "TextPole8";
+            this.TextPole8.Size = new System.Drawing.Size(87, 22);
+            this.TextPole8.TabIndex = 9;
+            this.TextPole8.Text = "300";
+            this.TextPole8.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button3
             // 
@@ -434,7 +434,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TextPole8;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label9;
@@ -445,21 +445,21 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TextPole3;
+        private System.Windows.Forms.TextBox TextPole1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox TextPole5;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox TextPole6;
+        private System.Windows.Forms.MaskedTextBox TextPole7;
+        private System.Windows.Forms.MaskedTextBox TextPole4;
+        private System.Windows.Forms.ComboBox TextPole2;
         private g464_Savosteenko_BaranovDataSet g464_Savosteenko_BaranovDataSet;
         private System.Windows.Forms.BindingSource view2BindingSource;
         private g464_Savosteenko_BaranovDataSetTableAdapters.View_2TableAdapter view_2TableAdapter;

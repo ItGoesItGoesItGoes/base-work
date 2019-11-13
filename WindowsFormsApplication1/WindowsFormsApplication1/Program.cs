@@ -68,5 +68,17 @@ namespace WindowsFormsApplication1
             }
         }
         private static Form5 _spisokblago;
+        public static Form6 Blagodarstvo
+        {
+            get
+            {
+                if (_blagodarstvo == null)
+                {
+                    _blagodarstvo = new Form6();
+                }
+                return _blagodarstvo;
+            }
+        }
+        private static Form6 _blagodarstvo;
     }
 }

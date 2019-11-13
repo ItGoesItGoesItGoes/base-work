@@ -17,9 +17,8 @@ namespace WindowsFormsApplication1
         int days = 0, hours = 0, minutes = 0;
         string dataString = "";
         int BoxSodej = 300;
-        private int irt;
-        private int[] masforzap=;
         //Form2 ManeForm;
+        int colvoOshibok = 0;
         public Form3()
         {
             InitializeComponent();
@@ -73,19 +72,19 @@ namespace WindowsFormsApplication1
         private void button2_Click(object sender, EventArgs e)
         {
             BoxSodej -= 10;
-            textBox1.Text = BoxSodej.ToString();
+            TextPole8.Text = BoxSodej.ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             BoxSodej += 10;
-            textBox1.Text = BoxSodej.ToString();
+            TextPole8.Text = BoxSodej.ToString();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            label9.Text = textBox1.Text + "$";
-            BoxSodej = Convert.ToInt32(textBox1.Text);
+            label9.Text = TextPole8.Text + "$";
+            BoxSodej = Convert.ToInt32(TextPole8.Text);
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -95,10 +94,54 @@ namespace WindowsFormsApplication1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            for(irt=0;irt<8;irt++)
+            if (TextPole1.Text == null)
+            {
+                colvoOshibok++;
+            }
+            if (TextPole2.Text == null)
+            {
+                colvoOshibok++;
+            }
+            if (TextPole3.Text == null)
+            {
+                colvoOshibok++;
+            }
+            if (TextPole4.Text == null)
+            {
+                colvoOshibok++;
+            }
+            if (TextPole5.Text == null)
+            {
+                colvoOshibok++;
+            }
+            if (TextPole6.Text == null)
+            {
+                colvoOshibok++;
+            }
+            if (TextPole7.Text == null)
+            {
+                colvoOshibok++;
+            }
+            if (TextPole8.Text == null)
+            {
+                colvoOshibok++;
+            }
+            if (colvoOshibok >= 1)
             {
                 
+            }
+            else
+            {
 
+
+
+
+
+
+
+                TimeForm2.TimeData = timerOut;
+                this.Hide();
+                FormWorker.Blagodarstvo.Show();
             }
         }
     }
