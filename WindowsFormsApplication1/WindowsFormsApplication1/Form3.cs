@@ -52,14 +52,9 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
             TimeForm2.TimeData = timerOut;
-            //this.Hide();
-            //ManeForm.Show();
             this.Hide();
             Form2 ManeForm= new Form2();
-
-            //ManeForm.ShowDialog();
             ManeForm.Show();
-            //this.Hide();
         }
 
         private void Form3_Load(object sender, EventArgs e)
@@ -94,54 +89,52 @@ namespace WindowsFormsApplication1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (TextPole1.Text == null)
+            if (string.IsNullOrEmpty(TextPole1.Text))
             {
                 colvoOshibok++;
             }
-            if (TextPole2.Text == null)
+            if (string.IsNullOrEmpty(TextPole2.Text))
             {
                 colvoOshibok++;
             }
-            if (TextPole3.Text == null)
+            if (string.IsNullOrEmpty(TextPole3.Text))
             {
                 colvoOshibok++;
             }
-            if (TextPole4.Text == null)
+            if (string.IsNullOrEmpty(TextPole4.Text))
             {
                 colvoOshibok++;
             }
-            if (TextPole5.Text == null)
+            if (string.IsNullOrEmpty(TextPole5.Text))
             {
                 colvoOshibok++;
             }
-            if (TextPole6.Text == null)
+            if (string.IsNullOrEmpty(TextPole6.Text))
             {
                 colvoOshibok++;
             }
-            if (TextPole7.Text == null)
+            if (string.IsNullOrEmpty(TextPole7.Text))
             {
                 colvoOshibok++;
             }
-            if (TextPole8.Text == null)
+            if (string.IsNullOrEmpty(TextPole8.Text))
             {
                 colvoOshibok++;
             }
-            if (colvoOshibok >= 1)
+            if (colvoOshibok >= 1) 
             {
                 
             }
             else
             {
 
-
-
-
-
-
-
                 TimeForm2.TimeData = timerOut;
                 this.Hide();
                 FormWorker.Blagodarstvo.Show();
+                FormWorker.Blagodarstvo.LabelText5 = TextPole2.Text;
+                FormWorker.Blagodarstvo.LabelText7 = "$" + TextPole8.Text;
+
+
             }
         }
     }

@@ -49,5 +49,27 @@ namespace WindowsFormsApplication1
         {
 
         }
+        public string LabelText7
+        {
+            get
+            {
+                return this.label7.Text;
+            }
+            set
+            {
+                this.label7.Text = value;
+            }
+        }
+        public string LabelText5
+        {
+            get
+            {
+                return this.label5.Text;
+            }
+            set
+            {
+                this.label5.Text = value;
+            }
+        }
     }
 }
