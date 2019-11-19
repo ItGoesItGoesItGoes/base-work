@@ -116,11 +116,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(191, 111);
+            this.label5.Location = new System.Drawing.Point(225, 111);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(219, 20);
+            this.label5.Size = new System.Drawing.Size(182, 20);
             this.label5.TabIndex = 2;
-            this.label5.Text = "Иван Прудов(204) из Russia";
+            this.label5.Text = "Иван Прудов из Russia";
             // 
             // label4
             // 

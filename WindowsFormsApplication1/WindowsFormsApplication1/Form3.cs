@@ -123,7 +123,8 @@ namespace WindowsFormsApplication1
             }
             if (colvoOshibok >= 1) 
             {
-                
+                MessageBox.Show("Не все поля заполнены", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                colvoOshibok = 0;
             }
             else
             {
@@ -133,7 +134,7 @@ namespace WindowsFormsApplication1
                 FormWorker.Blagodarstvo.Show();
                 FormWorker.Blagodarstvo.LabelText5 = TextPole2.Text;
                 FormWorker.Blagodarstvo.LabelText7 = "$" + TextPole8.Text;
-
+                colvoOshibok = 0;
 
             }
         }
