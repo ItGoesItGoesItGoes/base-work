@@ -81,9 +81,9 @@
             this.label3.Location = new System.Drawing.Point(100, 0);
             this.label3.Margin = new System.Windows.Forms.Padding(100, 0, 0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(404, 24);
+            this.label3.Size = new System.Drawing.Size(418, 24);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Список благотворительнх организаций";
+            this.label3.Text = "Список благотворительных организаций";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4

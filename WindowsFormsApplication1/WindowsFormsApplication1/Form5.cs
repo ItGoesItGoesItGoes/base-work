@@ -15,6 +15,7 @@ namespace WindowsFormsApplication1
         int timerOut = TimeForm2.TimeData;
         int days = 0, hours = 0, minutes = 0;
         string dataString = "";
+
         public Form5()
         {
             InitializeComponent();
@@ -44,7 +45,10 @@ namespace WindowsFormsApplication1
 
         private void Form5_Load(object sender, EventArgs e)
         {
-
+            PictureBox picturebox1 = new PictureBox();
+            picturebox1.Location = new Point(50, 100);
+            flowLayoutPanel1.Controls.Add(picturebox1);
+            picturebox1.Image = Image.FromFile("/Pics/arise-logo.png");
         }
     }
 }
