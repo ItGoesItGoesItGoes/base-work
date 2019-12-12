@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
@@ -63,6 +64,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.view_2TableAdapter = new WindowsFormsApplication1.g464_Savosteenko_BaranovDataSetTableAdapters.View_2TableAdapter();
+            this.button6 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.view2BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.g464_Savosteenko_BaranovDataSet)).BeginInit();
@@ -100,6 +102,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.button6);
             this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.TextPole2);
             this.groupBox1.Controls.Add(this.TextPole7);
@@ -406,6 +409,17 @@
             // 
             this.view_2TableAdapter.ClearBeforeFill = true;
             // 
+            // button6
+            // 
+            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Location = new System.Drawing.Point(534, 122);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(22, 21);
+            this.button6.TabIndex = 29;
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -464,5 +478,6 @@
         private System.Windows.Forms.BindingSource view2BindingSource;
         private g464_Savosteenko_BaranovDataSetTableAdapters.View_2TableAdapter view_2TableAdapter;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button button6;
     }
 }

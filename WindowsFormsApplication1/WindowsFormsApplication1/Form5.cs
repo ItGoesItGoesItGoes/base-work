@@ -45,10 +45,10 @@ namespace WindowsFormsApplication1
 
         private void Form5_Load(object sender, EventArgs e)
         {
-            PictureBox picturebox1 = new PictureBox();
-            picturebox1.Location = new Point(50, 100);
-            flowLayoutPanel1.Controls.Add(picturebox1);
-            picturebox1.Image = Image.FromFile("/Pics/arise-logo.png");
+            UserControl1 usercontrol11 = new UserControl1();
+          
+            this.Controls.Add(usercontrol11);
+            UserControl1.picturebox1.Image = new Bitmap("C:/Users/user12/Desktop/464_Savos/WindowsFormsApplication1/Pics/arise-logo.png");
         }
     }
 }

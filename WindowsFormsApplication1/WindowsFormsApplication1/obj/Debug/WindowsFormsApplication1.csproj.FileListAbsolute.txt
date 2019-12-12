@@ -12,3 +12,5 @@ C:\Users\user12\Desktop\464_Savos\WindowsFormsApplication1\WindowsFormsApplicati
 C:\Users\user12\Desktop\464_Savos\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form4.resources
 C:\Users\user12\Desktop\464_Savos\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form5.resources
 C:\Users\user12\Desktop\464_Savos\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form6.resources
+C:\Users\user12\Desktop\464_Savos\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form7.resources
+C:\Users\user12\Desktop\464_Savos\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.UserControl1.resources

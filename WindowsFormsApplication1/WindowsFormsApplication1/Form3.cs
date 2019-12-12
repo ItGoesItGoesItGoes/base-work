@@ -138,5 +138,11 @@ namespace WindowsFormsApplication1
 
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form7 infoform = new Form7();
+            infoform.Show();
+        }
     }
 }
